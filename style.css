@@ -84,7 +84,8 @@ button {
   padding: 0.375rem 0.75rem;
   background-color: white;
   background-clip: padding-box;
-  border-color: rgb(13, 18, 26) ;
+  border-color: rgb(13, 18, 26);
+  font-family: 'Poppins', sans-serif;
 }
 
 .form-control:focus {
