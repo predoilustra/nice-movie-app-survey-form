@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
 } 
 
 body{
@@ -66,7 +65,6 @@ button {
 .description {
   font-style: italic;
   font-weight: 200;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
 }
 
 .clue {
