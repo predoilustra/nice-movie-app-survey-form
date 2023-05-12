@@ -9,7 +9,8 @@
 
   <div class="container">
     <header class="header">
-        <h1 id="title" class="text-center">Nice Movie App Form :)</h1>
+        <h1 id="title" class="text-center">Nice Movie App Form :D</h1>
+        <br>
         <p id="description" class="description text-center">
             A survey of the users of our platform!
         </p>
@@ -60,8 +61,7 @@
           <p>How often do you watch movies:</p>
           <select id="dropdown" name="role" class="form-control" required>
             <option disabled selected value>...</option>
-            <option value="day">Every day</option>
-            <option value="week">Weekly</option>
+            <option value="week">Every week</option>
             <option value="monthly">Monthly</option>
             <option value="quarterly">Quarterly</option>
             <option value="other">Other</option>
@@ -70,6 +70,7 @@
         <div class="form-group">
           <br> 
             <p>Do you enjoy films provided by our streaming service?</p>
+            <br>
             <label>
               <input
                 name="enjoy-movies"
@@ -102,7 +103,8 @@
                 What are your favorite genres?
               <span class="clue">(Multiple checks allowed)</span>
             </p>
-  
+            <br>
+
             <label
               ><input
                 name="prefer"
@@ -126,6 +128,14 @@
                 type="checkbox"
                 class="input-checkbox"
               />Action</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="fantasy"
+                type="checkbox"
+                class="input-checkbox"
+              />Fantasy</label
             >
             <label
               ><input
@@ -163,6 +173,7 @@
         <br> 
         <div class="form-group">
             <p>We want to know your suggestions!</p>
+            <br>
             <textarea
               id="suggestions"
               class="input-suggestion"
